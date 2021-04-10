@@ -1,6 +1,7 @@
 # StructureTree
 structure Tree
-<?php
+<i>
+  <?php
 include 'tree.php';
 
 $Text = 'Structure Tree'.PHP_EOL;
@@ -11,3 +12,4 @@ $Text .= $tree;
 
 print $Text;
 ?>
+</i>
