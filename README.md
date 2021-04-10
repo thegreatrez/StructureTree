@@ -1,12 +1,12 @@
 # StructureTree
 ```
-include 'tree.php';</br></br></br>
+include 'tree.php';
 
-$Text = 'Structure Tree'.PHP_EOL;</br>
-$Data = ["one"=>["first"=>"First Data","secound"=>"Secound Data"]];</br></br>
+$Text = 'Structure Tree'.PHP_EOL;
+$Data = ["one"=>["first"=>"First Data","secound"=>"Secound Data"]];
 
-$tree = Tree($data);</br>
-$Text .= $tree;</br></br>
+$tree = Tree($data);
+$Text .= $tree;
 
 print $Text;
 
