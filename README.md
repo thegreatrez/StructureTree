@@ -1,5 +1,5 @@
 # StructureTree
-<i>
+```
 include 'tree.php';</br></br></br>
 
 $Text = 'Structure Tree'.PHP_EOL;</br>
@@ -10,4 +10,4 @@ $Text .= $tree;</br></br>
 
 print $Text;
 
-</i>
+```
