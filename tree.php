@@ -5,7 +5,6 @@ function Tree($array,$depth = 0){
      $ENTRY = " ├ " ;
      $SKIP = " ┊ ";
      $KEY = ": ";
-     $NEWLINE = PHP_EOL;
      $output = "";
      if (is_array($array)){
          $final = count($array) -1;
@@ -23,9 +22,9 @@ function Tree($array,$depth = 0){
                        $current +=1;
                   }
                   if (is_array($v)){
-                      $output = $output . $k .$KEY. $NEWLINE . Tree($v, $depth +1 );
+                      $output = $output . $k .$KEY. PHP_EOL . Tree($v, $depth +1 );
                   }else{
-                      $output = $output . $k .$KEY. Tree($v, $depth +1 ).$NEWLINE;
+                      $output = $output . $k .$KEY. Tree($v, $depth +1 ).PHP_EOL;
                   }
             }   
          }else{
