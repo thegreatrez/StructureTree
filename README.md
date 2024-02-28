@@ -3,7 +3,7 @@
 include 'tree.php';
 
 $Text = 'Structure Tree'.PHP_EOL;
-$Data = ["one"=>["first"=>"First Data Of One","secound"=>"Secound Data Of One"],"two"=>"One Data Of Two"];
+$data = ["one"=>["first"=>"First Data Of One","secound"=>"Secound Data Of One"],"two"=>"One Data Of Two"];
 
 $tree = Tree($data);
 $Text .= $tree;
